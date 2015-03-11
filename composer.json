@@ -1,0 +1,29 @@
+{
+    "name": "pygillier/twitter-embed",
+    "description": "Easily embed tweets in your content with a shortcode.",
+    "type": "bolt-extension",
+    "require": {
+        "bolt/bolt": ">=2.1.0,<3.0.0",
+        "corbanb/freebird-php": "~0.2.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pierre-Yves Gillier", 
+            "email": "pierre-yves@gillier.name"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "init.php"
+        ],
+        "psr-4": {
+            "Bolt\\Extension\\pygillier\\TwitterEmbed\\": "",
+            "Freebird\\Services\\freebird": "lib/freebird/"
+        }
+    },
+    
+    "extra": {
+        "bolt-assets": "assets"
+    }
+}

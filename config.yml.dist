@@ -1,0 +1,5 @@
+# Your twitter consumer key
+#
+# Get yours at https://dev.twitter.com/apps
+consumer_key: your key
+consumer_secret: your secret
