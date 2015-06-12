@@ -1,4 +1,4 @@
-Twitter embed
+Twitter embedding
 ======================
 
 Allows simple embedding of tweets in content.
