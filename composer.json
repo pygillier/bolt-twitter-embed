@@ -3,8 +3,7 @@
     "description": "Easily embed tweets in your content with a shortcode.",
     "type": "bolt-extension",
     "require": {
-        "bolt/bolt": ">=2.1.0,<3.0.0",
-        "corbanb/freebird-php": "~0.2.2"
+        "bolt/bolt": ">=2.1.0,<3.0.0"
     },
     "license": "MIT",
     "authors": [
@@ -19,7 +18,7 @@
         ],
         "psr-4": {
             "Bolt\\Extension\\pygillier\\TwitterEmbed\\": "",
-            "Freebird\\Services\\freebird": "lib/freebird/"
+            "Freebird\\Services\\freebird\\": "lib/freebird/"
         }
     },
     
