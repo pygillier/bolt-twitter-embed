@@ -2,6 +2,7 @@
     "name": "pygillier/twitter-embed",
     "description": "Easily embed tweets in your content with a shortcode.",
     "type": "bolt-extension",
+    "keywords": ["twitter", "embedding"],
     "require": {
         "bolt/bolt": ">=2.1.0,<3.0.0"
     },
