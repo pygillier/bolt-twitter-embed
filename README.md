@@ -19,4 +19,4 @@ Issues and support
 =================
 This extension has flaws, it's my first one !
 
-So, if you find some, don't hesitate to fill an issue here : https://bitbucket.org/pygillier/bolt-twitter-embed/issues
+So, if you find some, don't hesitate to fill an issue here : https://github.com/pygillier/bolt-twitter-embed/issues
