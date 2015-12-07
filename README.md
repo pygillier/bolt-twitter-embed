@@ -13,7 +13,8 @@ Usage
 ===========
 **Limitation:** Currently, the shortcode can be used only in body part of a page or entry. 
 
-In you content, insert the code `[tweet id=XXX]` or `[tweet url=XXX]`. When saving the content, your shortcode will be replaced by the actual tweet. 
+In you content, insert the code `[tweet id=XXX]` or `[tweet url=XXX]` and replace XXX by ID or full url to selected tweet.
+When saving the content, your shortcode will be replaced by the actual tweet. 
 
 Issues and support
 =================

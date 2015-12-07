@@ -1,5 +1,4 @@
 <?php
-
 namespace Bolt\Extension\pygillier\TwitterEmbed;
 
 
@@ -13,9 +12,6 @@ class Extension extends BaseExtension
 {
   
     private $regex = '#\[tweet (?:id=(?P<id>\d*))?(?:url=(?P<url>.*))?\s*\]#i';
-    private $endpoint = "https://api.twitter.com/1.1/statuses/oembed.json";
-    private $token_endpoint = "https://api.twitter.com/oauth2/token";
-    private $js_file = "//platform.twitter.com/widgets.js";
 
     public function initialize() {
         // Pre-save event
@@ -26,6 +22,12 @@ class Extension extends BaseExtension
         return "TwitterEmbed";
     }
 
+    /**
+     * Replace shortcodes with actual tweet content
+     *
+     * @uses  getEmbed()
+     * @param StorageEvent $event
+     */
     function preSave(StorageEvent $event) {
         
         $record = $event->getContent();

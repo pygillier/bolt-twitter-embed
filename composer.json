@@ -4,7 +4,7 @@
     "type": "bolt-extension",
     "keywords": ["twitter", "embedding"],
     "require": {
-        "bolt/bolt": ">=2.1.0,<3.0.0"
+        "bolt/bolt": ">=2.1.0,<2.3.0"
     },
     "license": "MIT",
     "authors": [
@@ -24,6 +24,7 @@
     },
     
     "extra": {
-        "bolt-assets": "assets"
+        "bolt-assets": "assets",
+        "bolt-icon": "twitter-embed-logo.png"
     }
 }
